@@ -1,0 +1,130 @@
+.fs {
+  color: white;
+  font-size: 5em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.to {
+  color: white;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+h1.fs {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+h1.text-center {
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+}
+
+.chaintech {
+  font-size: 2em; 
+  font-weight: bold;
+  background-image: linear-gradient(to right, yellow, lightgreen); 
+  -webkit-background-clip: text; 
+  color: transparent; 
+}
+
+
+
+/* For tablets and smaller screens */
+@media (max-width: 767px) {
+  .fs {
+      font-size: 3.5em; 
+  }
+
+  .to {
+      font-size: 1.5em; 
+  }
+
+  .chaintech {
+      font-size: 1.8em; 
+  }
+
+  p {
+      font-size: 1em; 
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+
+/* For mobile phones and very small screens */
+@media (max-width: 575px) {
+  .fs {
+      font-size: 2.5em; 
+  }
+
+  .to {
+      font-size: 1.2em; 
+  }
+
+  .chaintech {
+      font-size: 1.5em; 
+  }
+
+  p {
+      font-size: 0.9em; 
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+}
+
+.right-arrow{
+    height: 10px;
+    width: 40px;
+    color: white;
+    border-radius: 50px;
+}
+.btn-arrow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  line-height: 1.5; 
+  margin: 0 15px; 
+}
+
+
+@media (max-width: 767px) {
+  .responsive-text {
+      font-size: 1em; 
+      line-height: 1.4; 
+      margin: 0 10px; 
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 575px) {
+  .responsive-text {
+      font-size: 0.9em;
+      line-height: 1.3;
+      margin: 0 5px; 
+  }
+}
+@media (max-width: 575px) {
+  .responsive-text1 {
+      font-size: 0.9em;
+      line-height: 1.3;
+      margin: 0 5px; 
+  }
+}
+
+
+  
